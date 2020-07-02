@@ -25,6 +25,6 @@ app.use(redirectToHttps({
 app.use(redirectToHttps({
     httpPort: 3000,
     httpsPort: 4000,
-    redirectStatus: 307 // Default redirect status is 301
+    redirectStatus: 301 // Default redirect status is 307
 }));
 ```
